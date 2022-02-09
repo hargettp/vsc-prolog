@@ -161,11 +161,12 @@
             {
                 "type": "prolog",
                 "label": "Prolog",
-                "enableBreakpointsFor": {
-                    "languageIds": [
-                        "prolog"
-                    ]
-                },
+                "breakpoints": [
+                    {
+                        "language": "prolog"
+
+                    }
+                ],
                 "program": "./out/src/features/prologDebugSession.js",
                 "runtime": "node",
                 "configurationAttributes": {
